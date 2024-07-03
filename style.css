@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.background{
+  height: 200px;
+  
+}
+
+.btn{
+  position: relative;
+  left: 100px;
+  top: 40px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #1717ae;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #3939b3;
+}
+#code{
+  position: relative;
+  top: 50px;
+  right: 170px;
+
+}
